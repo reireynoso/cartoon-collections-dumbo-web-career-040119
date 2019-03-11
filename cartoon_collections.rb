@@ -1,9 +1,12 @@
 def roll_call_dwarves(array)# code an argument here
   # Your code here
-  i = 1
-  until i == array.length
-    puts "*#{i}. #{array}"
-    i += 1
+  array.collect do |names|
+    i = 1
+    until i == array.length
+      puts "#{i}. #{names}"
+      i += 1
+    end
+    return array
   end
 end
 
