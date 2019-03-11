@@ -1,6 +1,6 @@
 def roll_call_dwarves(array)# code an argument here
   # Your code here
-  i = 1
+  i = 0
   array.collect do |names|
     i += 1
     puts "#{i}. #{names}"
