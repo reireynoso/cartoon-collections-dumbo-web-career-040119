@@ -1,9 +1,10 @@
 def roll_call_dwarves(array)# code an argument here
   # Your code here
   i = 0
-  array.each_index do |item,index|
-    puts "#{index}. #{item}"
-  end 
+  array.collect do |names|
+    i += 1
+    puts "#{i}. #{names}"
+  end
   return array
 end
 
