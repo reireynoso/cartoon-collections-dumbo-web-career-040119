@@ -2,12 +2,10 @@ def roll_call_dwarves(array)# code an argument here
   # Your code here
   array.collect do |names|
     i = 1
-    until i == array.length
-      puts "#{i}. #{names}"
-      i += 1
-    end
-    return array
+    puts "#{i}. #{names}"
+    i += 1
   end
+  return array
 end
 
 def summon_captain_planet# code an argument here
